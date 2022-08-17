@@ -75,6 +75,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
+// I don't understand why it was giving me an error when written the original way
 const writeToFile = data => {
     return new Promise((resolve, reject) => {
         fs.writeFile('README.md', data, err => {
