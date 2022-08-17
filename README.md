@@ -1,48 +1,37 @@
-# 09 Node.js Challenge: Professional README Generator
+# README Generator
 
-By Molly Hesse
+  ## Description
+  A node.js based project that grants the user a series of questions. Once answered, the user is generated a README that now contains all desired information give through the prompts.
 
-## My Task
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Installation
+  You will need to install the npm by running "npm i" in a terminal, at the root of your directory. Once installed, run the test by typing "node index.js".
 
-Create a README generator which includes important information such as project titles, how to install projects, contact information, etc.
+  ## Usage
+  You must answer all questions asked in order to generate your README file. The example use of this is to quickly generate a README file by using this project.
 
-## User Story
+  
 
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+  ## Contributing
+  My suggestions are to correct the license badges.
 
-## Acceptance Criteria
+  ## Tests
+  Answer all prompted questions with detail enough to complete your README file. Any unsanswered questions return a prompt to direct users to answer.
 
-GIVEN a command-line application that accepts user input
+  ## Questions
+  Please direct questions about this project to:
+  Github: https://github.com/wtNorris
+  Email: mollyannmarieh@gmail.com
 
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+  ## Demo video:
 
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-
-## Review
-
-The following are for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-* A sample README.md file for a project repository generated using your application
-* The URL of the GitHub repository, with a unique name and a README describing the project
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
+  https://youtu.be/ZjhvZVLxhVQ
+  See sampleREADME.md file for file generated.
+  Repo: https://github.com/wtNorris/readme_generator
